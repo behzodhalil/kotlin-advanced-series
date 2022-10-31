@@ -20,6 +20,19 @@ private fun main() {
     println(number2)
     println(list)
 
-    var number3 = 0
+    println(number4)
+
+    number5 = 6
+
+    println(number5)
 }
+
+private var number4: Number = 0
+    get() = field + 1
+
+private var number5: Number = 0
+    set(value) {
+        field = value + 1
+    }
+
 
