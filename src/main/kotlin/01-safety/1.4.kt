@@ -1,4 +1,4 @@
-package safety
+package `01-safety`
 
 private fun main() {
     val immutableList = listOf(1,2,3,4)

@@ -1,4 +1,4 @@
-package safety
+package `01-safety`
 
 @JvmInline
 private value class Name(val value: String)

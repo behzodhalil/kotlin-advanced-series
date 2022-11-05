@@ -1,6 +1,4 @@
-package safety
-
-import safety.Number
+package `01-safety`
 
 
 private typealias Number = Int

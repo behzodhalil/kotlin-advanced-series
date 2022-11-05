@@ -1,4 +1,4 @@
-package safety
+package `01-safety`
 
 /**
  * When we tighten a variable’s scope,

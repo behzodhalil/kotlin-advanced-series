@@ -1,4 +1,4 @@
-package safety
+package `01-safety`
 
 class JsonParsingException : Exception()
 
