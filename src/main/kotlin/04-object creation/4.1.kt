@@ -11,14 +11,16 @@ class Element {
     fun setElement(value: String){
         element = value
     }
-}
 
-fun create(): Element {
-    return Element()
+    companion object {
+        fun create(): Element {
+            return Element()
+        }
+    }
 }
 
 fun main() {
-    val element = create()
+    val element = Element.create()
     element.setElement("10")
     val result = element.getElement()
     print(result)
